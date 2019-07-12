@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import {BrowserRouter as Router, Route} from 'react-router-dom';
 import './App.css';
 import TodoInput from './components/TodoInput';
-// import TodoList from './components/TodoList'
 import Header from './components/Layout/Header';
 import AddTodo from './components/AddTodo';
 import About from './components/pages/About';
@@ -86,12 +85,3 @@ class App extends Component {
  
 
 export default App;
-
-
-//Update 9-Juli-2019
-//belum input untuk yang data otomatis
-//Update 10 Juli 2019 
-//suah sampai install uuid
-//update 11 juli 2019
-//React fragment
-//React router

@@ -14,7 +14,7 @@ class TodoInput extends Component {
   }
  }
  
-//PropTypes = fungsi untuk 
+//PropTypes = fungsi untuk melempar data 
 TodoInput.propTypes = { //membuat class baru PropTypes
   todos : PropTypes.array.isRequired, //di ambil dari dari state todos  
   markComplete : PropTypes.func.isRequired,
